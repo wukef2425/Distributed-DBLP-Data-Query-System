@@ -11,6 +11,10 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.*;
 import java.net.Socket;
 import java.util.List;
+import java.util.logging.FileHandler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
 
 
 public class ClientHandler implements Runnable {
@@ -18,25 +22,39 @@ public class ClientHandler implements Runnable {
     private List<DataPartition> dataPartitions;
     private int port;
 
+    private Logger logger;
+
     public ClientHandler(Socket clientSocket, List<DataPartition> dataPartitions, int port) {
         this.clientSocket = clientSocket;
         this.dataPartitions = dataPartitions;
         this.port = port;
+
+        // Initialize logger
+        logger = Logger.getLogger(ClientHandler.class.getName());
+        try {
+            FileHandler fileHandler = new FileHandler("server_log_" + port + ".txt");
+            fileHandler.setFormatter(new SimpleFormatter());
+            logger.addHandler(fileHandler);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override
     public void run() {
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
              PrintWriter writer = new PrintWriter(clientSocket.getOutputStream(), true)) {
-            // 处理客户端请求
-            String clientMessage = reader.readLine();
-            System.out.println("Received from client: " + clientMessage);
-            // 根据请求选择相应的数据块进行处理
-            String response = processData(clientMessage);
-            // 发送响应给客户端
+
+            // Read client request
+            String clientRequest = reader.readLine();
+            logger.log(Level.INFO, "Received request on port " + port + ": " + clientRequest);
+
+            String response = "Response from port " + port;
             writer.println(response);
+            logger.log(Level.INFO, "Sent response on port " + port + ": " + response);
+
         } catch (IOException e) {
-            System.out.println("Error in client handler: " + e.getMessage());
+            e.printStackTrace();
         }
     }
     private String processData(String clientMessage) {

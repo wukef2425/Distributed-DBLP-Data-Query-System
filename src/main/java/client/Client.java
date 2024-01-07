@@ -13,14 +13,19 @@ public class Client {
              PrintWriter writer = new PrintWriter(socket.getOutputStream(), true);
              BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()))) {
 
-            // 发送查询请求
-            writer.println("Query from Client");
+            while (true) {
+                // Send a query request
+                writer.println("Query from Client");
 
-            // 接收服务器响应
-            String serverResponse = reader.readLine();
-            System.out.println("Received from server: " + serverResponse);
+                // Receive server response
+                String serverResponse = reader.readLine();
+                System.out.println("Received from server: " + serverResponse);
 
-        } catch (IOException e) {
+                // Introduce a delay between requests (you can adjust the delay as needed)
+                Thread.sleep(1000);
+            }
+
+        } catch (IOException | InterruptedException e) {
             e.printStackTrace();
         }
     }
