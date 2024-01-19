@@ -40,11 +40,14 @@ public class Chunking {
                 System.arraycopy(buffer, 0, chunkData, 0, bytesRead);
 
                 // 将块分配给不同的存储虚拟机
-                String storageVM = assignStorageVM(chunkIndex);
-                saveChunkLocally(chunkData, storageVM, chunkIndex);
+                String primaryStorageVM = assignStorageVM(chunkIndex, 0);
+                String replicaStorageVM = assignStorageVM(chunkIndex, 1);
+                saveChunkLocally(chunkData, primaryStorageVM, chunkIndex);
+                saveChunkLocally(chunkData, replicaStorageVM, chunkIndex + 1); // chunkIndex % NUM_REPLICAS 移一位
 
                 // 记录块的分布情况
-                chunks.add(storageVM + ": Chunk " + chunkIndex);
+                chunks.add("Chunk" + chunkIndex + "_primary" + ":" + primaryStorageVM);
+                chunks.add("Chunk" + chunkIndex  + "_replica" + ":" + replicaStorageVM);
 
                 chunkIndex++;
             }
@@ -54,14 +57,21 @@ public class Chunking {
     }
 
     private static void saveChunkLocally(byte[] chunkData, String storageVM, int chunkIndex) {
-        // 将块保存在本地
-        String filename = storageVM + "_chunk_" + chunkIndex + ".dat";
+        // 将块保存在本地，区分主副本和副本
+        String filename;
+
+        if (chunkIndex % NUM_REPLICAS == 0) {
+            filename = storageVM + "_chunk_" + chunkIndex + "_primary.dat";
+        } else {
+            filename = storageVM + "_chunk_" + chunkIndex + "_replica.dat";
+        }
         try (FileOutputStream fos = new FileOutputStream(filename)) {
             fos.write(chunkData);
         } catch (IOException e) {
             // 记录异常信息
             e.printStackTrace();
         }
+
     }
 
     private static void saveChunkDistribution(List<String> chunks) {
@@ -76,12 +86,12 @@ public class Chunking {
         }
     }
 
-    private static String assignStorageVM(int chunkIndex) {
+    private static String assignStorageVM(int chunkIndex, int replicaIndex) {
         // 计算主副本所在的虚拟机
         int primaryVMIndex = chunkIndex % NUM_STORAGE_VMS;
         // 计算副本所在的虚拟机，确保不与主副本在同一虚拟机上
-        int replicaVMIndex = (primaryVMIndex + 1) % NUM_STORAGE_VMS;
+        int replicaVMIndex = (primaryVMIndex + replicaIndex) % NUM_STORAGE_VMS;
         // 每个虚拟机存储一个副本，主副本和副本在不同的虚拟机上
-        return "StorageVM" + (chunkIndex % NUM_REPLICAS == 0 ? primaryVMIndex : replicaVMIndex);
+        return "StorageVM" + (replicaIndex == 0 ? primaryVMIndex : replicaVMIndex);
     }
 }

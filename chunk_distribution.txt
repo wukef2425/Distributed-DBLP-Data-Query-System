@@ -1,196 +1,392 @@
-StorageVM0: Chunk 0
-StorageVM2: Chunk 1
-StorageVM2: Chunk 2
-StorageVM1: Chunk 3
-StorageVM1: Chunk 4
-StorageVM0: Chunk 5
-StorageVM0: Chunk 6
-StorageVM2: Chunk 7
-StorageVM2: Chunk 8
-StorageVM1: Chunk 9
-StorageVM1: Chunk 10
-StorageVM0: Chunk 11
-StorageVM0: Chunk 12
-StorageVM2: Chunk 13
-StorageVM2: Chunk 14
-StorageVM1: Chunk 15
-StorageVM1: Chunk 16
-StorageVM0: Chunk 17
-StorageVM0: Chunk 18
-StorageVM2: Chunk 19
-StorageVM2: Chunk 20
-StorageVM1: Chunk 21
-StorageVM1: Chunk 22
-StorageVM0: Chunk 23
-StorageVM0: Chunk 24
-StorageVM2: Chunk 25
-StorageVM2: Chunk 26
-StorageVM1: Chunk 27
-StorageVM1: Chunk 28
-StorageVM0: Chunk 29
-StorageVM0: Chunk 30
-StorageVM2: Chunk 31
-StorageVM2: Chunk 32
-StorageVM1: Chunk 33
-StorageVM1: Chunk 34
-StorageVM0: Chunk 35
-StorageVM0: Chunk 36
-StorageVM2: Chunk 37
-StorageVM2: Chunk 38
-StorageVM1: Chunk 39
-StorageVM1: Chunk 40
-StorageVM0: Chunk 41
-StorageVM0: Chunk 42
-StorageVM2: Chunk 43
-StorageVM2: Chunk 44
-StorageVM1: Chunk 45
-StorageVM1: Chunk 46
-StorageVM0: Chunk 47
-StorageVM0: Chunk 48
-StorageVM2: Chunk 49
-StorageVM2: Chunk 50
-StorageVM1: Chunk 51
-StorageVM1: Chunk 52
-StorageVM0: Chunk 53
-StorageVM0: Chunk 54
-StorageVM2: Chunk 55
-StorageVM2: Chunk 56
-StorageVM1: Chunk 57
-StorageVM1: Chunk 58
-StorageVM0: Chunk 59
-StorageVM0: Chunk 60
-StorageVM2: Chunk 61
-StorageVM2: Chunk 62
-StorageVM1: Chunk 63
-StorageVM1: Chunk 64
-StorageVM0: Chunk 65
-StorageVM0: Chunk 66
-StorageVM2: Chunk 67
-StorageVM2: Chunk 68
-StorageVM1: Chunk 69
-StorageVM1: Chunk 70
-StorageVM0: Chunk 71
-StorageVM0: Chunk 72
-StorageVM2: Chunk 73
-StorageVM2: Chunk 74
-StorageVM1: Chunk 75
-StorageVM1: Chunk 76
-StorageVM0: Chunk 77
-StorageVM0: Chunk 78
-StorageVM2: Chunk 79
-StorageVM2: Chunk 80
-StorageVM1: Chunk 81
-StorageVM1: Chunk 82
-StorageVM0: Chunk 83
-StorageVM0: Chunk 84
-StorageVM2: Chunk 85
-StorageVM2: Chunk 86
-StorageVM1: Chunk 87
-StorageVM1: Chunk 88
-StorageVM0: Chunk 89
-StorageVM0: Chunk 90
-StorageVM2: Chunk 91
-StorageVM2: Chunk 92
-StorageVM1: Chunk 93
-StorageVM1: Chunk 94
-StorageVM0: Chunk 95
-StorageVM0: Chunk 96
-StorageVM2: Chunk 97
-StorageVM2: Chunk 98
-StorageVM1: Chunk 99
-StorageVM1: Chunk 100
-StorageVM0: Chunk 101
-StorageVM0: Chunk 102
-StorageVM2: Chunk 103
-StorageVM2: Chunk 104
-StorageVM1: Chunk 105
-StorageVM1: Chunk 106
-StorageVM0: Chunk 107
-StorageVM0: Chunk 108
-StorageVM2: Chunk 109
-StorageVM2: Chunk 110
-StorageVM1: Chunk 111
-StorageVM1: Chunk 112
-StorageVM0: Chunk 113
-StorageVM0: Chunk 114
-StorageVM2: Chunk 115
-StorageVM2: Chunk 116
-StorageVM1: Chunk 117
-StorageVM1: Chunk 118
-StorageVM0: Chunk 119
-StorageVM0: Chunk 120
-StorageVM2: Chunk 121
-StorageVM2: Chunk 122
-StorageVM1: Chunk 123
-StorageVM1: Chunk 124
-StorageVM0: Chunk 125
-StorageVM0: Chunk 126
-StorageVM2: Chunk 127
-StorageVM2: Chunk 128
-StorageVM1: Chunk 129
-StorageVM1: Chunk 130
-StorageVM0: Chunk 131
-StorageVM0: Chunk 132
-StorageVM2: Chunk 133
-StorageVM2: Chunk 134
-StorageVM1: Chunk 135
-StorageVM1: Chunk 136
-StorageVM0: Chunk 137
-StorageVM0: Chunk 138
-StorageVM2: Chunk 139
-StorageVM2: Chunk 140
-StorageVM1: Chunk 141
-StorageVM1: Chunk 142
-StorageVM0: Chunk 143
-StorageVM0: Chunk 144
-StorageVM2: Chunk 145
-StorageVM2: Chunk 146
-StorageVM1: Chunk 147
-StorageVM1: Chunk 148
-StorageVM0: Chunk 149
-StorageVM0: Chunk 150
-StorageVM2: Chunk 151
-StorageVM2: Chunk 152
-StorageVM1: Chunk 153
-StorageVM1: Chunk 154
-StorageVM0: Chunk 155
-StorageVM0: Chunk 156
-StorageVM2: Chunk 157
-StorageVM2: Chunk 158
-StorageVM1: Chunk 159
-StorageVM1: Chunk 160
-StorageVM0: Chunk 161
-StorageVM0: Chunk 162
-StorageVM2: Chunk 163
-StorageVM2: Chunk 164
-StorageVM1: Chunk 165
-StorageVM1: Chunk 166
-StorageVM0: Chunk 167
-StorageVM0: Chunk 168
-StorageVM2: Chunk 169
-StorageVM2: Chunk 170
-StorageVM1: Chunk 171
-StorageVM1: Chunk 172
-StorageVM0: Chunk 173
-StorageVM0: Chunk 174
-StorageVM2: Chunk 175
-StorageVM2: Chunk 176
-StorageVM1: Chunk 177
-StorageVM1: Chunk 178
-StorageVM0: Chunk 179
-StorageVM0: Chunk 180
-StorageVM2: Chunk 181
-StorageVM2: Chunk 182
-StorageVM1: Chunk 183
-StorageVM1: Chunk 184
-StorageVM0: Chunk 185
-StorageVM0: Chunk 186
-StorageVM2: Chunk 187
-StorageVM2: Chunk 188
-StorageVM1: Chunk 189
-StorageVM1: Chunk 190
-StorageVM0: Chunk 191
-StorageVM0: Chunk 192
-StorageVM2: Chunk 193
-StorageVM2: Chunk 194
-StorageVM1: Chunk 195
+Chunk0_primary:StorageVM0
+Chunk0_replica:StorageVM1
+Chunk1_primary:StorageVM1
+Chunk1_replica:StorageVM2
+Chunk2_primary:StorageVM2
+Chunk2_replica:StorageVM0
+Chunk3_primary:StorageVM0
+Chunk3_replica:StorageVM1
+Chunk4_primary:StorageVM1
+Chunk4_replica:StorageVM2
+Chunk5_primary:StorageVM2
+Chunk5_replica:StorageVM0
+Chunk6_primary:StorageVM0
+Chunk6_replica:StorageVM1
+Chunk7_primary:StorageVM1
+Chunk7_replica:StorageVM2
+Chunk8_primary:StorageVM2
+Chunk8_replica:StorageVM0
+Chunk9_primary:StorageVM0
+Chunk9_replica:StorageVM1
+Chunk10_primary:StorageVM1
+Chunk10_replica:StorageVM2
+Chunk11_primary:StorageVM2
+Chunk11_replica:StorageVM0
+Chunk12_primary:StorageVM0
+Chunk12_replica:StorageVM1
+Chunk13_primary:StorageVM1
+Chunk13_replica:StorageVM2
+Chunk14_primary:StorageVM2
+Chunk14_replica:StorageVM0
+Chunk15_primary:StorageVM0
+Chunk15_replica:StorageVM1
+Chunk16_primary:StorageVM1
+Chunk16_replica:StorageVM2
+Chunk17_primary:StorageVM2
+Chunk17_replica:StorageVM0
+Chunk18_primary:StorageVM0
+Chunk18_replica:StorageVM1
+Chunk19_primary:StorageVM1
+Chunk19_replica:StorageVM2
+Chunk20_primary:StorageVM2
+Chunk20_replica:StorageVM0
+Chunk21_primary:StorageVM0
+Chunk21_replica:StorageVM1
+Chunk22_primary:StorageVM1
+Chunk22_replica:StorageVM2
+Chunk23_primary:StorageVM2
+Chunk23_replica:StorageVM0
+Chunk24_primary:StorageVM0
+Chunk24_replica:StorageVM1
+Chunk25_primary:StorageVM1
+Chunk25_replica:StorageVM2
+Chunk26_primary:StorageVM2
+Chunk26_replica:StorageVM0
+Chunk27_primary:StorageVM0
+Chunk27_replica:StorageVM1
+Chunk28_primary:StorageVM1
+Chunk28_replica:StorageVM2
+Chunk29_primary:StorageVM2
+Chunk29_replica:StorageVM0
+Chunk30_primary:StorageVM0
+Chunk30_replica:StorageVM1
+Chunk31_primary:StorageVM1
+Chunk31_replica:StorageVM2
+Chunk32_primary:StorageVM2
+Chunk32_replica:StorageVM0
+Chunk33_primary:StorageVM0
+Chunk33_replica:StorageVM1
+Chunk34_primary:StorageVM1
+Chunk34_replica:StorageVM2
+Chunk35_primary:StorageVM2
+Chunk35_replica:StorageVM0
+Chunk36_primary:StorageVM0
+Chunk36_replica:StorageVM1
+Chunk37_primary:StorageVM1
+Chunk37_replica:StorageVM2
+Chunk38_primary:StorageVM2
+Chunk38_replica:StorageVM0
+Chunk39_primary:StorageVM0
+Chunk39_replica:StorageVM1
+Chunk40_primary:StorageVM1
+Chunk40_replica:StorageVM2
+Chunk41_primary:StorageVM2
+Chunk41_replica:StorageVM0
+Chunk42_primary:StorageVM0
+Chunk42_replica:StorageVM1
+Chunk43_primary:StorageVM1
+Chunk43_replica:StorageVM2
+Chunk44_primary:StorageVM2
+Chunk44_replica:StorageVM0
+Chunk45_primary:StorageVM0
+Chunk45_replica:StorageVM1
+Chunk46_primary:StorageVM1
+Chunk46_replica:StorageVM2
+Chunk47_primary:StorageVM2
+Chunk47_replica:StorageVM0
+Chunk48_primary:StorageVM0
+Chunk48_replica:StorageVM1
+Chunk49_primary:StorageVM1
+Chunk49_replica:StorageVM2
+Chunk50_primary:StorageVM2
+Chunk50_replica:StorageVM0
+Chunk51_primary:StorageVM0
+Chunk51_replica:StorageVM1
+Chunk52_primary:StorageVM1
+Chunk52_replica:StorageVM2
+Chunk53_primary:StorageVM2
+Chunk53_replica:StorageVM0
+Chunk54_primary:StorageVM0
+Chunk54_replica:StorageVM1
+Chunk55_primary:StorageVM1
+Chunk55_replica:StorageVM2
+Chunk56_primary:StorageVM2
+Chunk56_replica:StorageVM0
+Chunk57_primary:StorageVM0
+Chunk57_replica:StorageVM1
+Chunk58_primary:StorageVM1
+Chunk58_replica:StorageVM2
+Chunk59_primary:StorageVM2
+Chunk59_replica:StorageVM0
+Chunk60_primary:StorageVM0
+Chunk60_replica:StorageVM1
+Chunk61_primary:StorageVM1
+Chunk61_replica:StorageVM2
+Chunk62_primary:StorageVM2
+Chunk62_replica:StorageVM0
+Chunk63_primary:StorageVM0
+Chunk63_replica:StorageVM1
+Chunk64_primary:StorageVM1
+Chunk64_replica:StorageVM2
+Chunk65_primary:StorageVM2
+Chunk65_replica:StorageVM0
+Chunk66_primary:StorageVM0
+Chunk66_replica:StorageVM1
+Chunk67_primary:StorageVM1
+Chunk67_replica:StorageVM2
+Chunk68_primary:StorageVM2
+Chunk68_replica:StorageVM0
+Chunk69_primary:StorageVM0
+Chunk69_replica:StorageVM1
+Chunk70_primary:StorageVM1
+Chunk70_replica:StorageVM2
+Chunk71_primary:StorageVM2
+Chunk71_replica:StorageVM0
+Chunk72_primary:StorageVM0
+Chunk72_replica:StorageVM1
+Chunk73_primary:StorageVM1
+Chunk73_replica:StorageVM2
+Chunk74_primary:StorageVM2
+Chunk74_replica:StorageVM0
+Chunk75_primary:StorageVM0
+Chunk75_replica:StorageVM1
+Chunk76_primary:StorageVM1
+Chunk76_replica:StorageVM2
+Chunk77_primary:StorageVM2
+Chunk77_replica:StorageVM0
+Chunk78_primary:StorageVM0
+Chunk78_replica:StorageVM1
+Chunk79_primary:StorageVM1
+Chunk79_replica:StorageVM2
+Chunk80_primary:StorageVM2
+Chunk80_replica:StorageVM0
+Chunk81_primary:StorageVM0
+Chunk81_replica:StorageVM1
+Chunk82_primary:StorageVM1
+Chunk82_replica:StorageVM2
+Chunk83_primary:StorageVM2
+Chunk83_replica:StorageVM0
+Chunk84_primary:StorageVM0
+Chunk84_replica:StorageVM1
+Chunk85_primary:StorageVM1
+Chunk85_replica:StorageVM2
+Chunk86_primary:StorageVM2
+Chunk86_replica:StorageVM0
+Chunk87_primary:StorageVM0
+Chunk87_replica:StorageVM1
+Chunk88_primary:StorageVM1
+Chunk88_replica:StorageVM2
+Chunk89_primary:StorageVM2
+Chunk89_replica:StorageVM0
+Chunk90_primary:StorageVM0
+Chunk90_replica:StorageVM1
+Chunk91_primary:StorageVM1
+Chunk91_replica:StorageVM2
+Chunk92_primary:StorageVM2
+Chunk92_replica:StorageVM0
+Chunk93_primary:StorageVM0
+Chunk93_replica:StorageVM1
+Chunk94_primary:StorageVM1
+Chunk94_replica:StorageVM2
+Chunk95_primary:StorageVM2
+Chunk95_replica:StorageVM0
+Chunk96_primary:StorageVM0
+Chunk96_replica:StorageVM1
+Chunk97_primary:StorageVM1
+Chunk97_replica:StorageVM2
+Chunk98_primary:StorageVM2
+Chunk98_replica:StorageVM0
+Chunk99_primary:StorageVM0
+Chunk99_replica:StorageVM1
+Chunk100_primary:StorageVM1
+Chunk100_replica:StorageVM2
+Chunk101_primary:StorageVM2
+Chunk101_replica:StorageVM0
+Chunk102_primary:StorageVM0
+Chunk102_replica:StorageVM1
+Chunk103_primary:StorageVM1
+Chunk103_replica:StorageVM2
+Chunk104_primary:StorageVM2
+Chunk104_replica:StorageVM0
+Chunk105_primary:StorageVM0
+Chunk105_replica:StorageVM1
+Chunk106_primary:StorageVM1
+Chunk106_replica:StorageVM2
+Chunk107_primary:StorageVM2
+Chunk107_replica:StorageVM0
+Chunk108_primary:StorageVM0
+Chunk108_replica:StorageVM1
+Chunk109_primary:StorageVM1
+Chunk109_replica:StorageVM2
+Chunk110_primary:StorageVM2
+Chunk110_replica:StorageVM0
+Chunk111_primary:StorageVM0
+Chunk111_replica:StorageVM1
+Chunk112_primary:StorageVM1
+Chunk112_replica:StorageVM2
+Chunk113_primary:StorageVM2
+Chunk113_replica:StorageVM0
+Chunk114_primary:StorageVM0
+Chunk114_replica:StorageVM1
+Chunk115_primary:StorageVM1
+Chunk115_replica:StorageVM2
+Chunk116_primary:StorageVM2
+Chunk116_replica:StorageVM0
+Chunk117_primary:StorageVM0
+Chunk117_replica:StorageVM1
+Chunk118_primary:StorageVM1
+Chunk118_replica:StorageVM2
+Chunk119_primary:StorageVM2
+Chunk119_replica:StorageVM0
+Chunk120_primary:StorageVM0
+Chunk120_replica:StorageVM1
+Chunk121_primary:StorageVM1
+Chunk121_replica:StorageVM2
+Chunk122_primary:StorageVM2
+Chunk122_replica:StorageVM0
+Chunk123_primary:StorageVM0
+Chunk123_replica:StorageVM1
+Chunk124_primary:StorageVM1
+Chunk124_replica:StorageVM2
+Chunk125_primary:StorageVM2
+Chunk125_replica:StorageVM0
+Chunk126_primary:StorageVM0
+Chunk126_replica:StorageVM1
+Chunk127_primary:StorageVM1
+Chunk127_replica:StorageVM2
+Chunk128_primary:StorageVM2
+Chunk128_replica:StorageVM0
+Chunk129_primary:StorageVM0
+Chunk129_replica:StorageVM1
+Chunk130_primary:StorageVM1
+Chunk130_replica:StorageVM2
+Chunk131_primary:StorageVM2
+Chunk131_replica:StorageVM0
+Chunk132_primary:StorageVM0
+Chunk132_replica:StorageVM1
+Chunk133_primary:StorageVM1
+Chunk133_replica:StorageVM2
+Chunk134_primary:StorageVM2
+Chunk134_replica:StorageVM0
+Chunk135_primary:StorageVM0
+Chunk135_replica:StorageVM1
+Chunk136_primary:StorageVM1
+Chunk136_replica:StorageVM2
+Chunk137_primary:StorageVM2
+Chunk137_replica:StorageVM0
+Chunk138_primary:StorageVM0
+Chunk138_replica:StorageVM1
+Chunk139_primary:StorageVM1
+Chunk139_replica:StorageVM2
+Chunk140_primary:StorageVM2
+Chunk140_replica:StorageVM0
+Chunk141_primary:StorageVM0
+Chunk141_replica:StorageVM1
+Chunk142_primary:StorageVM1
+Chunk142_replica:StorageVM2
+Chunk143_primary:StorageVM2
+Chunk143_replica:StorageVM0
+Chunk144_primary:StorageVM0
+Chunk144_replica:StorageVM1
+Chunk145_primary:StorageVM1
+Chunk145_replica:StorageVM2
+Chunk146_primary:StorageVM2
+Chunk146_replica:StorageVM0
+Chunk147_primary:StorageVM0
+Chunk147_replica:StorageVM1
+Chunk148_primary:StorageVM1
+Chunk148_replica:StorageVM2
+Chunk149_primary:StorageVM2
+Chunk149_replica:StorageVM0
+Chunk150_primary:StorageVM0
+Chunk150_replica:StorageVM1
+Chunk151_primary:StorageVM1
+Chunk151_replica:StorageVM2
+Chunk152_primary:StorageVM2
+Chunk152_replica:StorageVM0
+Chunk153_primary:StorageVM0
+Chunk153_replica:StorageVM1
+Chunk154_primary:StorageVM1
+Chunk154_replica:StorageVM2
+Chunk155_primary:StorageVM2
+Chunk155_replica:StorageVM0
+Chunk156_primary:StorageVM0
+Chunk156_replica:StorageVM1
+Chunk157_primary:StorageVM1
+Chunk157_replica:StorageVM2
+Chunk158_primary:StorageVM2
+Chunk158_replica:StorageVM0
+Chunk159_primary:StorageVM0
+Chunk159_replica:StorageVM1
+Chunk160_primary:StorageVM1
+Chunk160_replica:StorageVM2
+Chunk161_primary:StorageVM2
+Chunk161_replica:StorageVM0
+Chunk162_primary:StorageVM0
+Chunk162_replica:StorageVM1
+Chunk163_primary:StorageVM1
+Chunk163_replica:StorageVM2
+Chunk164_primary:StorageVM2
+Chunk164_replica:StorageVM0
+Chunk165_primary:StorageVM0
+Chunk165_replica:StorageVM1
+Chunk166_primary:StorageVM1
+Chunk166_replica:StorageVM2
+Chunk167_primary:StorageVM2
+Chunk167_replica:StorageVM0
+Chunk168_primary:StorageVM0
+Chunk168_replica:StorageVM1
+Chunk169_primary:StorageVM1
+Chunk169_replica:StorageVM2
+Chunk170_primary:StorageVM2
+Chunk170_replica:StorageVM0
+Chunk171_primary:StorageVM0
+Chunk171_replica:StorageVM1
+Chunk172_primary:StorageVM1
+Chunk172_replica:StorageVM2
+Chunk173_primary:StorageVM2
+Chunk173_replica:StorageVM0
+Chunk174_primary:StorageVM0
+Chunk174_replica:StorageVM1
+Chunk175_primary:StorageVM1
+Chunk175_replica:StorageVM2
+Chunk176_primary:StorageVM2
+Chunk176_replica:StorageVM0
+Chunk177_primary:StorageVM0
+Chunk177_replica:StorageVM1
+Chunk178_primary:StorageVM1
+Chunk178_replica:StorageVM2
+Chunk179_primary:StorageVM2
+Chunk179_replica:StorageVM0
+Chunk180_primary:StorageVM0
+Chunk180_replica:StorageVM1
+Chunk181_primary:StorageVM1
+Chunk181_replica:StorageVM2
+Chunk182_primary:StorageVM2
+Chunk182_replica:StorageVM0
+Chunk183_primary:StorageVM0
+Chunk183_replica:StorageVM1
+Chunk184_primary:StorageVM1
+Chunk184_replica:StorageVM2
+Chunk185_primary:StorageVM2
+Chunk185_replica:StorageVM0
+Chunk186_primary:StorageVM0
+Chunk186_replica:StorageVM1
+Chunk187_primary:StorageVM1
+Chunk187_replica:StorageVM2
+Chunk188_primary:StorageVM2
+Chunk188_replica:StorageVM0
+Chunk189_primary:StorageVM0
+Chunk189_replica:StorageVM1
+Chunk190_primary:StorageVM1
+Chunk190_replica:StorageVM2
+Chunk191_primary:StorageVM2
+Chunk191_replica:StorageVM0
+Chunk192_primary:StorageVM0
+Chunk192_replica:StorageVM1
+Chunk193_primary:StorageVM1
+Chunk193_replica:StorageVM2
+Chunk194_primary:StorageVM2
+Chunk194_replica:StorageVM0
+Chunk195_primary:StorageVM0
+Chunk195_replica:StorageVM1
