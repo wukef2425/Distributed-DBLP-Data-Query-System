@@ -42,8 +42,8 @@ public class Chunking {
                 // 将块分配给不同的存储虚拟机
                 String primaryStorageVM = assignStorageVM(chunkIndex, 0);
                 String replicaStorageVM = assignStorageVM(chunkIndex, 1);
-                saveChunkLocally(chunkData, primaryStorageVM, chunkIndex);
-                saveChunkLocally(chunkData, replicaStorageVM, chunkIndex + 1); // chunkIndex % NUM_REPLICAS 移一位
+                saveChunkLocally(chunkData, primaryStorageVM, chunkIndex, 0);
+                saveChunkLocally(chunkData, replicaStorageVM, chunkIndex, 1);
 
                 // 记录块的分布情况
                 chunks.add("Chunk" + chunkIndex + "_primary" + ":" + primaryStorageVM);
@@ -56,11 +56,11 @@ public class Chunking {
         return chunks;
     }
 
-    private static void saveChunkLocally(byte[] chunkData, String storageVM, int chunkIndex) {
+    private static void saveChunkLocally(byte[] chunkData, String storageVM, int chunkIndex, int replicaIndex) {
         // 将块保存在本地，区分主副本和副本
         String filename;
 
-        if (chunkIndex % NUM_REPLICAS == 0) {
+        if (replicaIndex % NUM_REPLICAS == 0) {
             filename = storageVM + "_chunk_" + chunkIndex + "_primary.dat";
         } else {
             filename = storageVM + "_chunk_" + chunkIndex + "_replica.dat";
