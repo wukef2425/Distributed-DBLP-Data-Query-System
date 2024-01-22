@@ -140,18 +140,11 @@ public class ClientHandler implements Runnable {
 
         try (BufferedReader fileReader = new BufferedReader(new FileReader(fileName))) {
             String line;
-            StringBuilder publication = new StringBuilder();
 
             while ((line = fileReader.readLine()) != null) {
-                if (line.contains("</publication>")) {
-                    // Process the completed publication
-                    if (containsAuthor(publication.toString(), authorName)) {
-                        publicationCount++;
-                    }
-                    publication.setLength(0);  // Reset StringBuilder for the next publication
-                } else {
-                    // Continue building the publication content
-                    publication.append(line).append("\n");
+                // 使用正则表达式匹配作者信息
+                if (line.matches(".*<author>.*" + authorName + ".*</author>.*")) {
+                    publicationCount++;
                 }
             }
         } catch (IOException e) {
